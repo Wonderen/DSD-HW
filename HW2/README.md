@@ -1,5 +1,5 @@
 
-In this homework, the question as below:
+# In this homework, the question as below:
 
 Simulate an n-bit counter using generic and write a test bench for it. This counter should be able to perform the following operations depending on the type of user request.
 1 - Counting ascending
@@ -8,7 +8,7 @@ Simulate an n-bit counter using generic and write a test bench for it. This coun
 4 - Specify the start of counting at the entrance
 
 
-How did we solve it:
+# How did we solve it:
 
 The implementation of this counter was asynchronous and the input changes were not dependent on the clock. A reset was also defined to reset the value inside the counter, which is highly active here.
 
